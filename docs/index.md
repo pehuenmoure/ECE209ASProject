@@ -1,37 +1,10 @@
-## Welcome to GitHub Pages
+## Spatial Predictions for Topology-Aware IoT Applications
 
-You can use the [editor on GitHub](https://github.com/pehuenmoure/SpatialPredictions/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+### Overview
+The goal of the project is to undergo spatial inference for topology-aware IoT applicaitions in which the sensor locations are themselves variable. In most IoT applications for spatial inference typically topology-aware applications have static locations the goal is to develop an approach wherein the sensors can change locations. To this end I will use a spatio-temporal graphical neural network (with knowledge of the sensor topology) to make spatio-temporal locations. The main goal is to have spatially correct predictions at some time `t` (and maybe `t+1`). My initial case study will be a traffic estimation wherein the measurment sensors can move locations. I will synthetically generate data using an open source traffic software. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Technical Approach
 
-### Markdown
+### Evaluation Metrics
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pehuenmoure/SpatialPredictions/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### References
